@@ -4,27 +4,27 @@ const imageData = [
   {
     label: "Bed Room",
     description: "A cozy and relaxing bedroom to unwind.",
-    src: "src/assets/image/bed.jpg",
+    src: "/assets/image/bed.jpg", // Updated path
   },
   {
     label: "Living Room",
     description: "Spacious area for bonding and entertainment.",
-    src: "src/assets/image/bg.jpg",
+    src: "/assets/image/bg.jpg", // Updated path
   },
   {
     label: "Kitchen",
     description: "Fully-equipped kitchen for all your cooking needs.",
-    src: "src/assets/image/kitchen.jpg",
+    src: "/assets/image/kitchen.jpg", // Updated path
   },
   {
     label: "Dining Table",
     description: "Enjoy your meals in a homely dining space.",
-    src: "src/assets/image/Dining.jpg",
+    src: "/assets/image/Dining.jpg", // Updated path
   },
   {
     label: "Restroom",
     description: "Clean, modern restroom with complete amenities.",
-    src: "src/assets/image/Restroom.jpg",
+    src: "/assets/image/Restroom.jpg", // Updated path
   },
 ];
 
