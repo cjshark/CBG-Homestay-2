@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import logo from "../../../public/assets/logo.jpg";
 import { Menu, X } from "lucide-react";
 import BookNowModal from "./modal";
 import { Link } from "react-scroll";
@@ -72,7 +72,7 @@ const Navbar = () => {
             <div className="flex items-center flex-shrink-0">
               <img
                 className="h-10 w-10 rounded-full mr-2"
-                src="src/assets/logo.jpg"
+                src={logo}
                 alt="logo"
               />
               <a className="mt-1.5" href="#">

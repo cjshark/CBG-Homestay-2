@@ -1,30 +1,35 @@
 import React, { useState } from "react";
+import Bed from "../../../public/assets/image/bed.jpg";
+import LivingR from "../../../public/assets/image/bg.jpg";
+import Kitehen from "../../../public/assets/image/kitchen.jpg";
+import Dining from "../../../public/assets/image/Dining.jpg";
+import RestR from "../../../public/assets/image/Restroom.jpg";
 
 const imageData = [
   {
     label: "Bed Room",
     description: "A cozy and relaxing bedroom to unwind.",
-    src: "/assets/image/bed.jpg", // Updated path
+    src: Bed,
   },
   {
     label: "Living Room",
     description: "Spacious area for bonding and entertainment.",
-    src: "/assets/image/bg.jpg", // Updated path
+    src: LivingR, // Updated path
   },
   {
     label: "Kitchen",
     description: "Fully-equipped kitchen for all your cooking needs.",
-    src: "/assets/image/kitchen.jpg", // Updated path
+    src: Kitehen, // Updated path
   },
   {
     label: "Dining Table",
     description: "Enjoy your meals in a homely dining space.",
-    src: "/assets/image/Dining.jpg", // Updated path
+    src: Dining, // Updated path
   },
   {
     label: "Restroom",
     description: "Clean, modern restroom with complete amenities.",
-    src: "/assets/image/Restroom.jpg", // Updated path
+    src: RestR, // Updated path
   },
 ];
 
