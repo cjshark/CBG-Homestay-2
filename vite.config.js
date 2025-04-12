@@ -5,7 +5,7 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/CBG-Homestay/", 
+  base: "/CBG-Homestay-2/", 
   plugins: [tailwindcss(), react()],
 
   resolve: {
